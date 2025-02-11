@@ -1,21 +1,26 @@
-import java.util.ArrayList;
-import java.util.Date;
-
 public class Exo3 {
-    public static void main(String[] args) throws Exception {
-        int x = 5;
-        double pi = 3.14;
-        String name = "John";
-        char lettre = 'c';
-        boolean vrai = true;
-        byte centVingtSept = 127;
-        short nombreShort = 32767;
-        long nombreLong = 2147483647L;
-        String message = "Hello, World!";
-        int[]  tableau = {1, 2, 3, 4};
-        ArrayList<String> liste = new ArrayList<String>();
-        Date date = new Date();
-        String vide = null;
-        var type = "var";
+    public static void main(String[] args) {
+
+        // primitive data types
+        byte myByte = 127;
+        short myShort = 32767;
+        int myInt = 2147483647;
+        long myLong = 9223372036854775807L;
+        float myFloat = 3.4028235E38f;
+        double myDouble = 1.7976931348623157E308;
+        char myChar = 'A';
+        boolean myBoolean = true;
+
+        // reference data types
+        String myString = "Hello";
+        Integer myInteger = 42;
+        Double myWrappedDouble = 3.14;
+        Object myObject = new Object();
+
+        System.out.println(myByte);
+
+        System.out.println(myShort);
+        System.out.println(myObject);
+
     }
 }
